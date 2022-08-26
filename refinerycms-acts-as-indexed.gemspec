@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency    'refinerycms-core', ['>= 4.0.0', '< 5.0']
   s.add_dependency    'acts_as_indexed', '~> 0.8'
-  s.add_dependency    'decorators', '~> 2.0'
+  s.add_dependency    'decorators'
   s.add_dependency    'stringex', '~> 2.5'
 
   s.cert_chain  = ['certs/parndt.pem']
